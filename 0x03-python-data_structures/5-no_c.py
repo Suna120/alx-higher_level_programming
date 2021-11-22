@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    s = ""
+    str_modified=""
     for char in my_string:
-        if char != 'C' and char !='c'
-        s += char
-    return s
+        if char !='c' and char !='C'
+        str_modified += char
+    return str_modified
+   
