@@ -5,5 +5,6 @@ def no_c(my_string):
     s3=str.replace('c','')
     print (s2, end ="")
     print(s3, end="")
+    
 no_c(my_string)
    
