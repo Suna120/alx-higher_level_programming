@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def print_matrix_integer(matrix=[[]]):
     i = 0
     if len(matrix[0]) == 0:
@@ -11,3 +12,4 @@ def print_matrix_integer(matrix=[[]]):
                 print(end="")
             else:
                 print()
+print_matrix_integer()
