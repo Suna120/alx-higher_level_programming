@@ -7,3 +7,4 @@ def divisible_by_2(my_list=[]):
         else:
             boolean_list = boolean_list + [True]
     return boolean_list
+    
