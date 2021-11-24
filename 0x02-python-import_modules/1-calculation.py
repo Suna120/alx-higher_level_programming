@@ -4,11 +4,10 @@ if __name__ == "__main__"
 a = 10
 b = 5
 for a + b:
-  return add(a, b)
+  print("{} + {} = {}".format(a, b, add(a,b)))
 for a - b:
-  return sub(a, b)
+ print("{} - {} = {}".format(a, b, sub(a,b)))
 for a / b:
-  return div(a, b)
+  print("{} / {} = {}".format(a, b, div(a,b)))
 for a * b:
-  return mul(a, b)
-
+ print("{} * {} = {}".format(a, b, mul(a,b)))
