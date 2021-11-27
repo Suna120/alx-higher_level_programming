@@ -4,4 +4,4 @@ def multiply_by_2(a_dictionary):
     for k, v in b_dictionary.items():
         b_dictionary[k] = v * 2
     return b_dictionary
-
+    
