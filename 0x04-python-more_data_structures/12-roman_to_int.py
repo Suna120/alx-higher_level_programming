@@ -11,6 +11,6 @@ def roman_to_int(roman_string):
             else:
                 total -= num_map[roman_string[i]]
             i +=1
-            total += num_map[roman_string[i]]
+        total += num_map[roman_string[i]]
         return total
     return 0
