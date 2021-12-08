@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""
+class that defines a squre based on 0-square.py
+"""
 class Square:
-    def __init__(self, size):
-        self.__size = size
+    def __init__(self, __size):
+        """
+        initialize the private instance attribute
+        """
+        self.__size = __size
