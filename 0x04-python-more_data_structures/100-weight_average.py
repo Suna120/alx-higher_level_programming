@@ -4,4 +4,4 @@ def weight_average(my_list=[]):
     if my_list:
         return average(my_list)
     else:
-        return 0
+        return 0         
