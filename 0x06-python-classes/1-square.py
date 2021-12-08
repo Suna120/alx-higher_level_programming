@@ -8,4 +8,4 @@ class Square:
         """
         initialize the private instance attribute
         """
-        self.__size = size
+        self.__size = __size
