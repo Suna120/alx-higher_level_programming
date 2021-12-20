@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""
-class that defines a squre based on 0-square.py
-"""
+"""Define Square class that defines a square by: (based on 0-square.py)"""
+
+
 class Square:
-    def __init__(self, __size):
+    def __init__(self, size = None):
         """
         initialize the private instance attribute
         """
-        self.__size = __size
+        self.__size = size
